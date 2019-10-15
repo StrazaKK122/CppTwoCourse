@@ -49,6 +49,8 @@ void print_sum_digits(int n) {
     std::cout << sum_digits(n) << std::endl;
 }
 
+// Zadanie, gdzie mamy wybrac wlasna funkcje. Wybralem fibonacciego.
+
 long int fib_recursion(int n) {
     if (n == 0) {
         return 0;
@@ -77,7 +79,6 @@ double fib_math(int n) {
 }
 
 void fib_wrapper(int n) {
-    // TODO: count all the times and compare them.
     auto start_rec = std::chrono::high_resolution_clock::now();
     std::cout << "Wynik fib_recursion: " << fib_recursion(n) << std::endl;
     auto stop_rec = std::chrono::high_resolution_clock::now();

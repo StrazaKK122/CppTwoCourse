@@ -266,6 +266,8 @@ public:
 // MAIN FUNCTION
 int main() {
 
+    // Zakomentowane bloczki kodu odpowiadaja kolejnym zadaniom.
+
     /*
     Segment segment{};
     segment.set_segment(1, 3, 5, 15);
