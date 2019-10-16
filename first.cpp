@@ -49,7 +49,7 @@ void print_sum_digits(int n) {
     std::cout << sum_digits(n) << std::endl;
 }
 
-// Zadanie, gdzie mamy wybrac wlasna funkcje. Wybralem fibonacciego.
+// Zadanie, gdzie mamy wybrac wlasna funkcje. Wybralem fibonacciego. Wybierz cos innego.
 
 long int fib_recursion(int n) {
     if (n == 0) {

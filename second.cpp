@@ -268,7 +268,7 @@ int main() {
 
     // Zakomentowane bloczki kodu odpowiadaja kolejnym zadaniom.
 
-    /*
+
     Segment segment{};
     segment.set_segment(1, 3, 5, 15);
     segment.show();
@@ -276,7 +276,7 @@ int main() {
     segment.show();
     segment.shift(10, 10);
     segment.show();
-    */
+
 
     /*
     Complex number;
