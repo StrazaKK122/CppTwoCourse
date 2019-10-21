@@ -1,5 +1,9 @@
+//
+// Created by matiu on 2.10.2019.
+//
+
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 using namespace std;
 
@@ -139,16 +143,16 @@ public:
         hard_cover = hardCover;
     }
 
-    void setPages(int pages) {
-        pages = pages;
+    void setPages(int new_pages) {
+        new_pages = new_pages;
     }
 
-    void setPrice(float price) {
-        price = price;
+    void setPrice(float new_price) {
+        new_price = new_price;
     }
 
-    void setGenre(string genre) {
-        genre = genre;
+    void setGenre(string new_genre) {
+        new_genre = new_genre;
     }
 
 };
@@ -187,8 +191,8 @@ public:
         return price;
     }
 
-    void setPrice(float price) {
-        price = price;
+    void setPrice(float new_price) {
+        new_price = new_price;
     }
 
 };
@@ -200,14 +204,14 @@ class Person {
 
 public:
 
-    void dopisz(string new_surname, int new_age) {
+    void dopisz(const string& new_surname, int new_age) {
         cout << "Dodaje " << new_surname << ", " << new_age << "... OK.\n";
         surname = new_surname;
         age = new_age;
         status = 1;
     }
 
-    int zmien(string new_surname, int new_age) {
+    int zmien(const string& new_surname, int new_age) {
         if (status == 0) {
             return 1;
         }
@@ -216,7 +220,7 @@ public:
         age = new_age;
         return 0;
     }
-    int zmien(int new_age, string new_surname) {
+    int zmien(int new_age, const string& new_surname) {
         if (status == 0) {
             return 1;
         }
@@ -225,7 +229,7 @@ public:
         age = new_age;
         return 0;
     }
-    int zmien(string new_surname) {
+    int zmien(const string& new_surname) {
         if (status == 0) {
             return 1;
         }
@@ -264,7 +268,9 @@ public:
 };
 
 // MAIN FUNCTION
-int main() {
+int second() {
+
+    // Zakomentowane bloczki kodu odpowiadaja kolejnym zadaniom.
 
 
     Segment segment{};
@@ -296,22 +302,14 @@ int main() {
     }
     */
 
-    /*
-    Book book;
-    book.setGenre("fantasy");
-    cout << book.getGenre();
-    */
-
-    /*
     Person test;
     test.dopisz("janusz", 21);
     test.zmien("jaroslaw");
+    test.zmien(22);
     test.drukuj();
     cout << test.skasuj();
     test.skasuj();
     cout << test.skasuj();
-    */
-
 
     return 0;
 }

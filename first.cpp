@@ -1,3 +1,7 @@
+//
+// Created by matiu on 2.10.2019.
+//
+
 #include <iostream>
 #include <cmath>
 #include <chrono>
@@ -17,9 +21,10 @@ double compound_interest(double assets, double gain, int years) {
 
 void print_asterixes(int n) {
     if (n >= 1) {
-        std::cout << "*" << std::endl;
+        std::cout << "*" ;
         print_asterixes(n - 1);
     }
+    std::cout << std::endl;
 }
 
 void print_numbers_down(int n) {
@@ -49,6 +54,8 @@ void print_sum_digits(int n) {
     std::cout << sum_digits(n) << std::endl;
 }
 
+// Zadanie, gdzie mamy wybrac wlasna funkcje. Wybralem fibonacciego. Wybierz cos innego.
+
 long int fib_recursion(int n) {
     if (n == 0) {
         return 0;
@@ -77,7 +84,6 @@ double fib_math(int n) {
 }
 
 void fib_wrapper(int n) {
-    // TODO: count all the times and compare them.
     auto start_rec = std::chrono::high_resolution_clock::now();
     std::cout << "Wynik fib_recursion: " << fib_recursion(n) << std::endl;
     auto stop_rec = std::chrono::high_resolution_clock::now();
@@ -102,12 +108,12 @@ void fib_wrapper(int n) {
 // MAIN FUNCTION
 int first() {
 
-    // compound_interest(10000, 0.03, 10);
-    // print_asterixes(5);
-    // print_numbers_down(5);
-    // euklides(36, 21);
-    // print_sum_digits(55);
-    // fib_wrapper(10);
+    compound_interest(10000, 0.03, 10);
+    print_asterixes(5);
+    print_numbers_down(40);
+    euklides(36, 21);
+    print_sum_digits(55);
+    fib_wrapper(10);
 
 
     // Don't touch that!
