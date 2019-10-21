@@ -2,6 +2,8 @@
 // Created by matiu on 16.10.2019.
 //
 
+// Based of: https://repl.it/@Maffey/Zadania-Lista-XI
+
 #ifndef SANDBOX_BANK_H
 #define SANDBOX_BANK_H
 
@@ -10,18 +12,19 @@
 using namespace std;
 
 class Bank {
-
 private:
-    string login; // Possibly obsolete
-    int correct_pin;
-    float balance;
+    bool bank_login();
 
 public:
-    bool is_blocked; // Returns true if there were too many unsuccessful attempts at logging in.
+    int correct_pin;
+    float balance;
 
     void withdraw(float money);
     void deposit(float money);
     void get_balance();
+
+    void change_pin();
+
 
 };
 
