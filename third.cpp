@@ -1,6 +1,8 @@
 //
-// Created by matiu on 16.10.2019.
+// Created by maffey on 16.10.2019.
 //
+
+// Based on: https://repl.it/@Maffey/Zadania-Lista-XI
 
 #include <iostream>
 #include "Bank.h"
@@ -10,7 +12,7 @@
 // MAIN FUNCTION
 int main() {
 
-    /*
+
     Bank account{};
     account.correct_pin = 1301;
     account.balance = 1000;
@@ -18,7 +20,6 @@ int main() {
     account.deposit(100);
     account.get_balance();
     account.change_pin();
-     */
 
     Smartphone phone{};
     phone.calculator();

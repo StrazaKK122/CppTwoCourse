@@ -1,8 +1,6 @@
 //
-// Created by matiu on 16.10.2019.
+// Created by maffey on 16.10.2019.
 //
-
-// Based of: https://repl.it/@Maffey/Zadania-Lista-XI
 
 #ifndef SANDBOX_BANK_H
 #define SANDBOX_BANK_H

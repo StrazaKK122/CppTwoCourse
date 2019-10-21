@@ -1,5 +1,5 @@
 //
-// Created by matiu on 16.10.2019.
+// Created by maffey on 16.10.2019.
 //
 
 #include "Bank.h"
