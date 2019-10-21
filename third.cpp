@@ -5,8 +5,8 @@
 // Based on: https://repl.it/@Maffey/Zadania-Lista-XI
 
 #include <iostream>
-#include "Bank.h"
-#include "Smartphone.h"
+#include "classes/Bank.h"
+#include "classes/Smartphone.h"
 
 
 // MAIN FUNCTION
