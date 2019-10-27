@@ -10,9 +10,8 @@
 
 
 // MAIN FUNCTION
-int main() {
-
-
+int third() {
+    
     Bank account{};
     account.correct_pin = 1301;
     account.balance = 1000;
