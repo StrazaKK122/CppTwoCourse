@@ -13,8 +13,8 @@ int main() {
     Vector one(pointA, pointB);
     one.show();
     Vector two(pointB, pointA);
-    cout << one.add(two);
     one.show();
+    // Vector::get_count();
 
 
     return 0;

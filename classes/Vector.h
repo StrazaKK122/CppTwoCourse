@@ -8,19 +8,20 @@
 
 class Vector {
 private:
-    //static int object_id;
     int point_a[2]{};
     int point_b[2]{};
 public:
+    static int object_id;
+
     Vector(int point_a[2], int point_b[2]);
 
     virtual ~Vector();
 
-    int add(Vector vector);
+    void add(Vector vector);
 
-    int subtract(Vector vector);
+    void subtract(Vector vector);
 
-    int multiply(Vector vector);
+    void multiply(Vector vector);
 
     // static int get_count();
 
