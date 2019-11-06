@@ -7,7 +7,7 @@
 using namespace std;
 
 // MAIN FUNCTION
-int main() {
+int fourth() {
     // Show Tree
 
     int pointA[2] = {3, 3};

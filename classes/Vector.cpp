@@ -41,7 +41,6 @@ void Vector::multiply(Vector vector) {
     Vector::point_b[1] *= vector.point_b[1];
 }
 
-// TODO: finish show.
 
 void Vector::show() {
     cout << " == Vector Data: == ";
