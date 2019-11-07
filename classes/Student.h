@@ -10,7 +10,7 @@
 using namespace std;
 
 class Student {
-private:
+protected:
     string name;
     string surname;
     int pesel;

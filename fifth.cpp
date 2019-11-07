@@ -58,7 +58,7 @@ bool compareCircles(Circle one, Circle two) {
 }
 
 // MAIN FUNCTION
-int main() {
+int fifth() {
     Cuboid ourCuboid(6, 10, 12);
     ourCuboid.calculateVolume();
     calculateArea(ourCuboid);
